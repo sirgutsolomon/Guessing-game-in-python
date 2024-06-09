@@ -1,4 +1,8 @@
-guesses = [0
+import random
+
+num = random.randint(1,100)
+guesses = [0]
+
 while True:
 
     # we can copy the code from above to take an input
